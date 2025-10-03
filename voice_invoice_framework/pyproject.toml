@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "voice-invoice-framework"
 version = "1.0.0"
 authors = [
-    {name = "Voice Invoice Team", email = "contact@voiceinvoice.dev"},
+    {name = "Anil Kedia", email = "anilkedia87@github.com"},
 ]
 description = "Professional voice-controlled invoice generation framework with modern GUI"
 readme = "README.md"

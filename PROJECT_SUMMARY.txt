@@ -393,16 +393,50 @@ The project demonstrates proficiency in:
 - Git version control and collaboration
 
 ================================================================================
-📞 SUPPORT & CONTACT
+�‍💻 AUTHOR & OWNERSHIP
+================================================================================
+
+PROJECT OWNER: Anil Kedia
+GitHub Profile: https://github.com/anilkedia87
+Repository: https://github.com/anilkedia87/voice-interactive-invoice-generator
+
+DEVELOPER CREDENTIALS:
+- Lead Developer & Project Architect
+- Python Expert specializing in voice technology integration
+- GUI/UX Design and modern interface development
+- Business application development (GST/Invoice systems)
+- Software architecture and framework design
+- Professional documentation and project management
+
+PROJECT SIGNATURE:
+This Voice Interactive Invoice Generator represents a complete software 
+development lifecycle from concept to professional framework. Demonstrates 
+proficiency in multiple technical domains including voice recognition, 
+GUI development, business logic implementation, and software architecture.
+
+TECHNICAL EXPERTISE DEMONSTRATED:
+✅ Python 3.8+ development and packaging
+✅ Speech recognition and text-to-speech integration
+✅ Modern GUI development with Tkinter
+✅ Business application logic (GST, invoicing, Indian tax compliance)
+✅ Software architecture and design patterns
+✅ Git version control and professional development workflow
+✅ Technical documentation and user experience design
+✅ Error handling, testing, and quality assurance
+
+================================================================================
+�📞 SUPPORT & CONTACT
 ================================================================================
 
 Repository: https://github.com/anilkedia87/voice-interactive-invoice-generator
+Owner: Anil Kedia (@anilkedia87)
 License: MIT License
 Python Version: 3.8+
 Platform Support: Windows, macOS, Linux
 
 For issues, enhancements, or questions:
 - GitHub Issues: Use repository issue tracker
+- GitHub Profile: https://github.com/anilkedia87
 - Documentation: See README.md and QUICKSTART.md
 - Code: Well-documented with inline comments
 

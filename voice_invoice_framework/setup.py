@@ -21,8 +21,8 @@ if requirements_file.exists():
 setup(
     name="voice-invoice-framework",
     version="1.0.0",
-    author="Voice Invoice Team",
-    author_email="contact@voiceinvoice.dev",
+    author="Anil Kedia",
+    author_email="anilkedia87@github.com",
     description="Professional voice-controlled invoice generation framework with modern GUI",
     long_description=long_description,
     long_description_content_type="text/markdown",

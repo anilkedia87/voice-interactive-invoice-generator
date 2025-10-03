@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 """
-Clean Voice Invoice GUI - No TTS Errors
-Fixed version that eliminates TTS run loop errors completely
+Clean Voice Invoice GUI - Professional Voice-Controlled Invoice Generator
+
+A comprehensive voice-interactive GUI for generating GST-compliant invoices.
+Features modern dark theme, robust voice recognition, and professional output.
+
+Author: Anil Kedia
+GitHub: @anilkedia87
+Repository: voice-interactive-invoice-generator
+Project: Voice Interactive Invoice Generator Framework v1.0.0
 """
 
 import sys

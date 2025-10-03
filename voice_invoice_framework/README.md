@@ -281,7 +281,16 @@ espeak / espeak-ng         # TTS engine (Linux)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/voice-invoice-framework/discussions)
 - **Documentation**: [Wiki](https://github.com/yourusername/voice-invoice-framework/wiki)
 
-## 📄 License
+## �‍💻 Author & Owner
+
+**Anil Kedia**
+- GitHub: [@anilkedia87](https://github.com/anilkedia87)
+- Repository: [voice-interactive-invoice-generator](https://github.com/anilkedia87/voice-interactive-invoice-generator)
+- Project Owner & Lead Developer
+
+*This project represents a comprehensive journey from prototype to professional framework, showcasing expertise in Python development, voice technology integration, modern GUI design, and software architecture.*
+
+## �📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
