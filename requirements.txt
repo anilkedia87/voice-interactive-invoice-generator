@@ -1,0 +1,25 @@
+# Voice Interactive Invoice Generator - Requirements
+
+# Core dependencies
+python-dateutil>=2.8.2
+
+# Voice interaction dependencies
+speechrecognition>=3.10.0
+pyttsx3>=2.90
+pyaudio>=0.2.11
+
+# GUI dependencies (usually built-in with Python)
+# tkinter - should be included with Python installation
+
+# Optional dependencies for PDF generation
+weasyprint>=59.0
+
+# Installation Notes:
+# macOS: brew install portaudio && pip install -r requirements.txt
+# Ubuntu/Debian: sudo apt-get install portaudio19-dev python3-tk && pip install -r requirements.txt
+# Windows: pip install -r requirements.txt
+
+# For PDF generation:
+# Ubuntu/Debian: sudo apt-get install python3-dev python3-pip python3-cffi python3-brotli libpango-1.0-0 libharfbuzz0b libpangoft2-1.0-0
+# macOS: brew install pango libffi
+# Windows: Usually works with pip install weasyprint
