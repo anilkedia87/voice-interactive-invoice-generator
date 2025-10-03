@@ -1,0 +1,123 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voice-invoice-framework"
+version = "1.0.0"
+authors = [
+    {name = "Voice Invoice Team", email = "contact@voiceinvoice.dev"},
+]
+description = "Professional voice-controlled invoice generation framework with modern GUI"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Developers", 
+    "Topic :: Office/Business :: Financial :: Accounting",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9", 
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Environment :: X11 Applications :: GTK",
+    "Environment :: MacOS X",
+    "Environment :: Win32 (MS Windows)",
+]
+keywords = [
+    "invoice",
+    "voice-recognition",
+    "speech-to-text", 
+    "text-to-speech",
+    "gst",
+    "billing",
+    "accounting",
+    "gui",
+    "tkinter",
+    "automation",
+    "business",
+    "framework",
+]
+dependencies = [
+    "SpeechRecognition>=3.8.1",
+    "pyttsx3>=2.90",
+    "reportlab>=3.6.0",
+    "Pillow>=8.3.0",
+    "webbrowser",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov>=2.0", 
+    "black>=21.0",
+    "flake8>=3.8",
+    "mypy>=0.910",
+    "pre-commit>=2.0",
+]
+docs = [
+    "sphinx>=4.0",
+    "sphinx-rtd-theme>=1.0",
+    "myst-parser>=0.15",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/voice-invoice-framework"
+"Bug Reports" = "https://github.com/yourusername/voice-invoice-framework/issues"
+"Source" = "https://github.com/yourusername/voice-invoice-framework"
+"Documentation" = "https://github.com/yourusername/voice-invoice-framework/wiki"
+
+[project.scripts]
+voice-invoice = "voice_invoice_framework.voice_invoice.__main__:main"
+
+[tool.setuptools]
+packages = ["voice_invoice_framework"]
+
+[tool.setuptools.package-data]
+"voice_invoice_framework" = [
+    "voice_invoice/templates/*.html",
+    "voice_invoice/templates/*.css", 
+    "voice_invoice/config/*.json",
+    "voice_invoice/docs/*.md",
+    "*.md",
+    "*.txt",
+    "*.yml",
+    "*.yaml",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q --strict-markers"
+testpaths = [
+    "tests",
+]
